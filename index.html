@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+	<title>MCQ </title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<meta name = "viewport" content="width = device-width", 
+	initial-scale = 1.0, maximum-scale=1.0, user-scalable = "no">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" >
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+</head>
+<body>
+	<div class="">
+		
+		<div class="container-fluid">
+			<div class="row qu">
+				<div class=" col-sm-9">
+					<nav class="navbar"><b style="font-size: 24px;">AgriVision4U Quiz</b> <span class="timer"> </span></nav>
+					<div class="line1">Question No. : <span></span></div>
+					<div class="line3">
+						<div class="question">question comes here</div><br/><br>
+						<input type="radio" id="ans1" class="answer" name="option" />
+						<label for="ans1" id="option1" class="label1" >
+						op1
+						</label><br>
+						<input type="radio" id="ans2"  class="answer" name="option" /> 
+						<label for="ans2" id="option2" class="label1">
+						op2
+						</label><br>
+						<input type="radio" id="ans3" class="answer" name="option" >
+						<label for="ans3" id="option3" class="label1">
+						op3
+						</label><br>
+						<input type="radio" id="ans4" class="answer" name="option" /> 
+						<label for="ans4" id="option4" class="label1">
+						op4
+						</label>
+					</div>
+					<div class="bton">
+						<button class="btn btn-danger" id="review-button">Review & Next</button>
+						<button class="btn btn-primary" id="save-button">Save & Next</button>
+						<button class="btn btn-warning" id="prev-question-button">Previous</button>
+						<button class="btn btn-info"  id="next-question-button">Next</button>
+						<button class="btn btn-dark"  id="clear-button">Clear Option</button>
+					</div>
+				</div>
+				<div class=" col-md-3 nameid">
+					<div class="cr">
+						<i class="fas fa-user fa-lg"></i> Nitesh <br>						
+					</div>
+					<div class="cr1">
+						<div class="cr2">
+							<span class="badge badge-success" id="answerd">0</span> Answerd
+							<span class="badge badge-secondary" id="marked">0</span> Marked 
+							<br>
+							<span class="badge badge-light" id="notvisited">0</span> Not visited 	
+							<span class="badge badge-pill badge-danger" id="notans">0</span> Not answered 
+							<br>					
+							<span class="badge badge-pill badge-info" id="maa">0</span> Marked ans answerd
+							
+						</div>
+						<div class="cr3">
+							<div class="section"><b>Section : Quiz</b></div>
+							<span id="pallate"></span>
+						</div>
+					</div>
+					
+					<button class="btn btn-danger" id="submit-button">Submit Answers</button>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>  
+
+
+
+
+
+</body>
+	<script type="text/javascript" src = "js/jquery.min.js"></script>
+	<script type="text/javascript" src = "js/popper.min.js"></script>
+	<script type="text/javascript" src = "js/bootstrap.js" ></script>
+	<script type="text/javascript" src = "js/java.js"></script>
+</html>
